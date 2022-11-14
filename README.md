@@ -1,7 +1,3 @@
-# SMSA-Express
-SMSA Express Sample
-
-
 # SMSA Express API C#  [![.NET](https://github.com/abuzuhri/SMSA-Express/actions/workflows/dotnet.yml/badge.svg)](https://github.com/abuzuhri/SMSA-Express/actions/workflows/dotnet.yml) [![NuGet](https://img.shields.io/nuget/v/SMSA-Express-Service.svg)](https://www.nuget.org/packages/SMSA-Express-Service/)
 
 
@@ -13,7 +9,13 @@ Install-Package SMSA-Express-Service
 ```
 
 
+### Configuration
+```CSharp
 
+SMSAExpressShipmentRequest smsaExpressShipmentRequest = new
+    SMSAExpressShipmentRequest("http://track.smsaexpress.com/SECOM/SMSAwebServiceIntl.asmx", "Testing2");
+
+```
 
 ### Sample how to create new shipment
 ```CSharp
