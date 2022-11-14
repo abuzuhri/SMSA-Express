@@ -7,6 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSAExpressServiceRequest",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSAExpressServiceRequest.Sample", "Source\SMSAExpressServiceRequest.Sample\SMSAExpressServiceRequest.Sample.csproj", "{E472AAD4-15D6-4E93-8540-C5F3FF54AD0E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{55974ACA-921A-4022-A45C-8E3F9F610A06}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{360D7076-F45C-420C-BD42-0BF3258E6BC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{B36429D4-55E2-4A4D-BE7C-4D4F9AD90663}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		.github\workflows\nuget.yml = .github\workflows\nuget.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +39,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{360D7076-F45C-420C-BD42-0BF3258E6BC1} = {55974ACA-921A-4022-A45C-8E3F9F610A06}
+		{B36429D4-55E2-4A4D-BE7C-4D4F9AD90663} = {360D7076-F45C-420C-BD42-0BF3258E6BC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {562088B2-E383-4052-B4AA-AD19BE48FFF4}
