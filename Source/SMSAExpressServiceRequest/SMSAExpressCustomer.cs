@@ -18,7 +18,7 @@
 
         public bool IsValid()
         {
-            if (Name == null)
+            if (string.IsNullOrEmpty(Name))
                 throw new SMSAExpressException("Customer Name can't be empity");
             if (Country == Countries.NOTSET)
                 throw new SMSAExpressException("Customer Country can't be empity or not set");
