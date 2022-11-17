@@ -14,12 +14,12 @@ var data = await smsaExpressShipmentRequest.AddShipment(
     {
         Customer = new SMSAExpressCustomer
         {
-            Name = "Wejdan Hassan",
+            Name = "Wejdan",
             Country = Countries.SA,
-            City = "As Salamah, Jeddah, Makkah",
-            Mobile = "+9665539200000",
+            City = "Makkah",
+            Mobile = "9999999",
             AddressLine1 = "As salamh",
-            AddressLine2 = "Nahdt ash sharq Building 8, Floor 5, apartment 170"
+            AddressLine2 = "nt 170"
 
         },
         PackageDetail = new SMSAExpressPackageDetail
@@ -30,7 +30,7 @@ var data = await smsaExpressShipmentRequest.AddShipment(
             CustomsValue = 175.00M,
             Currency = CurrencyCodes.SAR,
             NoOfPieces = 1,
-            ItemDescription = "Kerastase Densifique Bain Densite",
+            ItemDescription = "Kerastase ",
             InsuranceValue = 0,
         }
     });
